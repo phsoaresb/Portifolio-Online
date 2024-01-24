@@ -1,0 +1,108 @@
+body {
+    background-image: url(animated.gif);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.links li {
+    display: inline;
+    padding: 0 12px;
+}
+
+.links li a {
+    font-size: 18px;
+    color: white;
+    text-decoration: none;
+}
+
+.links {
+    padding: 14px 0;
+    text-align: center;
+}
+
+img {
+    height: 300px;
+    border-radius: 50%;
+    position: relative;
+    top: 0px;
+    
+}
+
+
+.cabecalho h1 {
+    font-size: 60px;
+    color: white;
+    font-weight: bold;
+    text-align: right;
+    font-style: italic;
+}
+
+.cabecalho p {
+    text-align: right;
+    color: white;
+    font-size: 50px;
+    margin-top: 0px;
+}
+
+.cabecalho h1 {
+    position: relative;
+    bottom: 250px;
+}
+
+.cabecalho p {
+    position: relative;
+    bottom: 250px;
+}
+
+.container {
+    font-size: 16px;
+    font-weight: bold;
+    text-decoration: none;
+    margin-top: 0px;
+    color: #ffff;
+    background-color: rgba(30, 8, 116, 0.966);
+    border: 10px solid rgba(30, 8, 116, 0.966);
+    border-radius: 30px;
+    opacity: 70%;
+    position: relative;
+    bottom: 250px;
+}
+
+.html {
+    color: orangered;
+}
+
+.css {
+    color:rgb(8, 97, 241);
+}
+
+.js {
+    color: yellow;
+}
+
+.py {
+    color: rgb(236, 236, 68);
+}
+
+.sql {
+    color: orangered;
+}
+
+p {
+    text-align: justify;
+}
+
+.icons {
+    padding: 10px;
+    font-size: 50px;
+}
+
+.apresentacao h3 {
+    text-align: right;
+}
+
+.apresentacao {
+    text-align: left;
+}
