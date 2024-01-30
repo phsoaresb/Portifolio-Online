@@ -13,17 +13,10 @@ body {
 }
 
 .links li a {
-    display: inline;
-    align-items: center;
-    justify-content: center;
-    color: #ffff;
-    padding: 16px 24px;
-    backdrop-filter: blur(4px);
-    -webkit-backdrop-filter: blur(4px);
-    text-decoration: none;
-    font-weight: 500;
-    transition: background 0.10s;
     font-size: 18px;
+    text-align: center;
+    text-decoration: none;
+    color: #ffff;
     
 }
 
@@ -32,10 +25,21 @@ body {
     text-align: center;
 }
 
+.links li:hover {
+    box-shadow: 5px 5px 10px #000000;
+    background-color: #04040463;
+        color: white;
+}
+
 img {
     height: 300px;
     border-radius: 50%;
     margin-bottom: 30px;
+}
+
+img:hover {
+    transition: transform 0.3s ease-in-out;
+        transform: scale(1.1);
 }
 
 
@@ -73,6 +77,12 @@ img {
     margin: 0px auto;
 }
 
+.primeirasecao:hover {
+        box-shadow: 5px 5px 10px #000000;
+        background-color: #ffff;
+        color: #000000;
+    }
+
 .primeirasecao p {
     text-align: center;
     font-size: 28px;
@@ -107,6 +117,11 @@ p {
     font-size: 40px;
 }
 
+.icons:hover {
+    transition: transform 0.3s ease-in-out;
+        transform: scale(1.1);
+}
+
 .apresentacao {
     font-size: 18px;
     font-weight: bold;
@@ -121,6 +136,12 @@ p {
     padding: 10px;
     border-width: 50%;
     margin-top: 60px;
+}
+
+.apresentacao:hover {
+    box-shadow: 5px 5px 10px #000000;
+    background-color: #ffff;
+    color: #000000;
 }
 
 .apresentacao p {
@@ -144,6 +165,12 @@ p {
     margin-top: 60px;
 }
 
+.apresentacao2:hover {
+    box-shadow: 5px 5px 10px #000000;
+        background-color: #ffff;
+        color: #000000;
+}
+
 .apresentacao2 p {
     font-size: 28px;
 }
@@ -161,38 +188,35 @@ p {
 }
 
 .imobiliaria {
-    text-align: left;
+    text-align: center;
+    display: inline;
 }
 
-.imobiliaria p {
-    text-align: left;
-    margin-left: 50px;
-    position: relative;
-    bottom: 50px;
+.imobiliaria:hover {
+        transition: transform 0.3s ease-in-out;
+        transform: scale(1.1);
 }
 
 .imobiliaria a {
     text-align: left;
-    margin-left: 120px;
-    position: relative;
-    bottom: 50px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding: 30px;
 }
-
-.agrupador {
-    position: relative;
-    bottom: 400px;
-
-}
-
 
 
 .iconescabecalho {
-    font-size: 30px;
+    font-size: 40px;
     text-align: center;
-    margin-top: 30px;
-    margin-bottom: 30px;
-    border: 10px solid black;
-    background-color: black;
-    border-radius: 25px;
-    border-width: 1px;
+    margin-top: 20px;
+}
+
+.iconescabecalho a {
+    color: rgb(20, 20, 20);
+}
+
+.iconescabecalho a:hover {
+    transition: transform 0.3s ease-in-out;
+        transform: scale(1.5);
+        display:inline-table
 }
