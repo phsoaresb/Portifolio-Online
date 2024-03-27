@@ -78,9 +78,7 @@ img:hover {
 }
 
 .primeirasecao:hover {
-        box-shadow: 5px 5px 10px #000000;
-        background-color: #ffff;
-        color: #000000;
+        opacity: 100%;
     }
 
 .primeirasecao p {
@@ -120,6 +118,7 @@ p {
 .icons:hover {
     transition: transform 0.3s ease-in-out;
         transform: scale(1.1);
+        opacity: 100%;
 }
 
 .apresentacao {
@@ -139,9 +138,7 @@ p {
 }
 
 .apresentacao:hover {
-    box-shadow: 5px 5px 10px #000000;
-    background-color: #ffff;
-    color: #000000;
+    opacity: 100%;
 }
 
 .apresentacao p {
@@ -166,9 +163,7 @@ p {
 }
 
 .apresentacao2:hover {
-    box-shadow: 5px 5px 10px #000000;
-        background-color: #ffff;
-        color: #000000;
+    opacity: 100%;
 }
 
 .apresentacao2 p {
@@ -192,9 +187,14 @@ p {
     display: inline;
 }
 
+.projetos:hover {
+opacity: 100%;
+
+}
 .imagensprojetos:hover {
         transition: transform 0.3s ease-in-out;
         transform: scale(1.1);
+        opacity: 100%;
 }
 
 .imagensprojetos a {
@@ -211,7 +211,7 @@ p {
 }
 
 .iconescabecalho a {
-    color: rgb(20, 20, 20);
+    color: #ffff;
 }
 
 .iconescabecalho a:hover {
